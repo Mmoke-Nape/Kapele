@@ -1,0 +1,7 @@
+{
+  "name": "kapele_app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
