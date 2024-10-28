@@ -1,0 +1,57 @@
+<ion-content [fullscreen]="true">
+  <ion-card class="container">
+    <swiper-container [loop]="true" [pagination]="true">
+      <swiper-slide>
+        <ion-img
+          src="https://images.unsplash.com/photo-1432139509613-5c4255815697?q=80&w=3264&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          class="image"
+        ></ion-img>
+      </swiper-slide>
+      <swiper-slide
+        ><ion-img
+          src="https://images.unsplash.com/photo-1700760933480-c01b903b07fd?q=80&w=2133&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          class="image"
+        ></ion-img
+      ></swiper-slide>
+      <swiper-slide
+        ><ion-img
+          src="https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?q=80&w=2270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          class="image"
+        ></ion-img
+      ></swiper-slide>
+    </swiper-container>
+    <div class="text-section">
+      <ion-card-header>
+        <ion-card-title>Bring Happiness Local Food with Kapele</ion-card-title>
+      </ion-card-header>
+      <br />
+      <ion-card-content>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard
+      </ion-card-content>
+      <br />
+      <ion-grid>
+        <ion-row>
+          <ion-col
+            ><ion-button expand="block" class="skip-tour"
+              >Skip tour</ion-button
+            ></ion-col
+          >
+          <ion-col
+            ><ion-button
+              expand="block"
+              class="get-started"
+              (click)="navigateToLoginPage()"
+              >Get started</ion-button
+            ></ion-col
+          >
+        </ion-row>
+      </ion-grid>
+      <br />
+      <p>
+        Already have an account?
+        <span class="login-button">Login</span>
+      </p>
+    </div>
+  </ion-card>
+</ion-content>
